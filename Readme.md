@@ -6,8 +6,8 @@
 
 
 Extra:
-Theme
-Theme Name: Regna
-Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+<br>
+Theme Name: Regna <br>
+Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template <br>
+Author: BootstrapMade.com <br>
+Author URL: https://bootstrapmade.com <br>
