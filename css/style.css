@@ -942,6 +942,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
+#team .row:last-child {
+  display: flex;
+  justify-content: center;
+}
+
 /* Team effects */
 
 .hover {
