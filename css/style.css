@@ -138,7 +138,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/full_board_2.JPG) top center;
+  background: url(../img/team/2025-2026/everyone.png) top center;
   background-size: cover;
   position: relative;
 }
@@ -1027,6 +1027,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: auto;
   height: auto;
 }
+.logo-wrap {
+  display: flex;
+  flex-wrap: wrap;             /* allows them to wrap to the next line */
+  justify-content: center;     /* centers logos if uneven number */
+  align-items: center;
+  gap: 40px;                   /* space between logos */
+}
+
+.logo-wrap .sponsor {
+  flex: 0 0 auto;              /* don't stretch full width */
+  text-align: center;
+}
+
+.logo-wrap .sponsor img {
+  max-width: 300px;            /* control logo size */
+  height: auto;                /* keep proportions */
+}
+
 
 /* Contact Section
 --------------------------------*/
