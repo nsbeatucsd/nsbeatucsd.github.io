@@ -214,7 +214,21 @@ h6 {
   border: 2px solid #2dc997;
 }
 
+/* Events Section */
+#events {
+  padding: 80px 0 40px 0;
+}
+
+#events iframe {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Join Section */
+#join {
+  padding: 40px 0 60px 0;
+}
+
 #join .join-container .background{
     min-height: 300px;
     background: #f7f7f7;
@@ -889,62 +903,87 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 
-#team {
+#team, #advisors {
   background: #fff;
   padding: 80px 0 60px 0;
 }
 
-#team .member {
+#advisors {
+  padding-top: 20px;
+}
+
+#team .member, #advisors .member {
   text-align: center;
   margin-bottom: 20px;
 }
 
-#team .member .pic {
+#team .member .pic, #advisors .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
   height: 260px;
   width: 260px;
 }
 
-#team .member .pic img {
+#team .member .pic img, #advisors .member .pic img {
   display: block;
   width: 100%;
   height: inherit;
   object-fit: cover;
 }
 
-#team .member h4 {
+#team .member h4, #advisors .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
 }
 
-#team .member span {
+#team .member span, #advisors .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-#team .member .social {
+#team .member .social, #advisors .member .social {
   margin-top: 15px;
 }
 
-#team .member .social a {
+#team .member .social a, #advisors .member .social a {
   color: #b3b3b3;
 }
 
-#team .member .social a:hover {
+#team .member .social a:hover, #advisors .member .social a:hover {
   color: #2dc997;
 }
 
-#team .member .social i {
+#team .member .social i, #advisors .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
 
-#team .row:last-child {
+#team .row:last-child, #advisors .row:last-child {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+#team .member-sm .pic {
+  height: 180px;
+  width: 180px;
+}
+
+#team .member-sm h4 {
+  font-size: 15px;
+}
+
+#team .member-sm span {
+  font-size: 11px;
+}
+
+@media (min-width: 992px) {
+  .col-lg-fifth {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
 }
 
 /* Team effects */
